@@ -1,34 +1,23 @@
 <resources>
     <string name="app_name">Sunshine</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+
+    <!-- Menu labels and titles -->
     <string name="action_refresh" translatable="false">Refresh</string>
-    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_map">Map Location</string>
 
-    <!-- Label for the location preference [ CHAR LIMIT 30 ]-->
+    <!-- Location strings-->
     <string name="pref_location_label">Location</string>
-
-    <!-- Key name for storing location in Shared Preferences [ CHAR LIMIT NONE ] -->
     <string name="pref_location_key" translatable="false">location</string>
-
-    <!-- Default zip code for location [ CHAR LIMIT NONE ] -->
     <string name="pref_location_default" translatable="false">95758</string>
 
-    <!-- Label for the units preference [ CHAR LIMIT 30 ]-->
+    <!-- Units strings-->
     <string name="pref_units_label">Temperature Units</string>
-
-    <!-- Key name for storing units in Shared Preferences [ CHAR LIMIT NONE ] -->
     <string name="pref_units_key" translatable="false">units</string>
-
-    <!-- Celsius units label [ CHAR LIMIT NONE ] -->
     <string name="pref_units_label_celsius" translatable="false">Celsius</string>
-
-    <!-- Celsius units [ CHAR LIMIT NONE ] -->
     <string name="pref_units_celsius" translatable="false">celsius</string>
-
-    <!-- Fahrenheit units label [ CHAR LIMIT NONE ] -->
     <string name="pref_units_label_fahrenheit" translatable="false">Fahrenheit</string>
-
-    <!-- Fahrenheit units [ CHAR LIMIT NONE ] -->
     <string name="pref_units_fahrenheit" translatable="false">fahrenheit</string>
 </resources>
